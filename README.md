@@ -1,7 +1,7 @@
 # Kalakar Ka Nagar (कलाकार का नगर)
 ### An Artisans' Project — Oral History, Studio Monographs & Photographic Heritage of Vernacular Sculptors
 
-**Live Web Project**: [https://polymath05.github.io/kalakarkanagar.github.io/](https://polymath05.github.io/kalakarkanagar.github.io/)
+**Live Web Project**: [https://polymath05.github.io/kalakarkanagar/](https://polymath05.github.io/kalakarkanagar/)
 
 ---
 
@@ -41,8 +41,8 @@ Traditional idol sculpture in India is an ephemeral sacred art—created for fes
 
 ```bash
 # Clone the repository
-git clone git@github.com:Polymath05/kalakarkanagar.github.io.git
-cd kalakarkanagar.github.io
+git clone git@github.com:Polymath05/kalakarkanagar.git
+cd kalakarkanagar
 
 # Run with any local server
 python3 -m http.server 8000
