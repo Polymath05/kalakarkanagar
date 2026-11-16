@@ -1,11 +1,11 @@
 {
   "archive_info": {
-    "id": "kalakar-collective",
-    "title": "KALAKAR COLLECTIVE",
-    "subtitle": "An Artisans' Archive — Photographic & Oral History Repository of Traditional Sculpture Artisans of India",
+    "id": "kalakar-project",
+    "title": "KALAKAR PROJECT",
+    "subtitle": "An Artisans' Project — Photographic & Oral History Repository of Traditional Sculpture Artisans of India",
     "location": "India",
     "curator": "Sharad Chaurasia (Founder & Researcher)",
-    "description": "An open archive preserving the oral histories, studio photographs, and material records of traditional sculpture artisans of India. Beginning with the rare photographic records of master sculptor Ramesh Singh Kalakar of Begum Bazaar, this archive provides open access to the material culture, economics, and sacred artistry of vernacular craft lineages.",
+    "description": "An ongoing project preserving the oral histories, studio photographs, and material records of Indian artisans. Beginning with the rare photographic records of master sculptor Ramesh Singh Kalakar of Begum Bazaar, this project provides open access to the material culture, economics, and sacred artistry of vernacular craft lineages.",
     "stats": {
       "artists_count": 1,
       "albums_count": 1,
@@ -42,7 +42,7 @@
     },
     {
       "id": "kumharwadi-masters",
-      "name": "Kumharwadi Terracotta Collective",
+      "name": "Kumharwadi Terracotta Project",
       "honorific": "Ustad Sculptors",
       "studio_name": "Kumharwadi Kilns",
       "location": "Old City, Hyderabad",
@@ -549,7 +549,7 @@
       "dimensions": "8ft. X 12ft. (Multi-figure court assembly)",
       "making_cost": "50,000 Rs.",
       "selling_cost": "1,20,000 Rs.",
-      "commission_type": "Temple Trust / Begum Bazaar Collective",
+      "commission_type": "Temple Trust / Begum Bazaar Project",
       "placed_location": "Begum Bazaar Studio Workshop",
       "identified_personalities": [],
       "concept": "A dual devotional court: on the left, divine lovers Radha and Krishna seated with sacred Kamadhenu cow and royal peacock; on the right, the grand Ram Darbar with Lord Rama, Sita, Lakshmana, Bharata, Shatrughna and kneeling devotee Hanuman.",

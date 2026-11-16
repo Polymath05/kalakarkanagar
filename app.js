@@ -1,7 +1,7 @@
 /**
- * KALAKAR COLLECTIVE — APPLICATION ENGINE
+ * KALAKAR PROJECT — APPLICATION ENGINE
  * Minimal, Archival, Sculptor-First Architecture
- * Supports English, Telugu, and Hindi translations
+ * Supports English and Hindi translations
  */
 
 (function () {
@@ -10,23 +10,22 @@
   // --- Multilingual Translations ---
   const TRANSLATIONS = {
     en: {
-      brand_name: "Kalakar Collective",
-      brand_meta: "An Artisans' Archive",
+      brand_name: "Kalakar Ka Nagar",
+      brand_meta: "",
       nav_sculptors: "Sculptors",
       nav_map: "Map",
+      map_label: "Studio Geolocation & Fieldwork",
+      map_title: "Artisan Workshop Coordinates",
+      map_desc: "Geographic coordinates of idol sculpting studios recorded during fieldwork. Hover over any coordinate marker to view workshop documentation, capture dates, and photographic albums.",
       nav_people: "Peoples",
       nav_about: "About",
-      hero_title: "An open archive preserving the oral histories, studio photographs, and material records of traditional sculpture artisans of India.",
-      hero_sub: "Vernacular idol sculpture in India is an ephemeral sacred art—created for festivals and dissolved in water during immersion. Kalakar Collective documents the workshops, artisan lineages, migration histories, and studio albums that make this living heritage possible.",
-      roster_label: "Sculptors in the Collective",
-      map_label: "Regional Provenance & Studio Map",
-      map_title: "Geographic Distribution of Studio Works",
-      map_desc: "Tracing the regional distribution of Ramesh Singh Kalakar's monumental festival idols and studio hubs across Hyderabad, Telangana, and Andhra Pradesh.",
-      map_nodes_title: "Documented Installation Hubs",
-      about_label: "About the Collective",
+      hero_title: "An ongoing project preserving the oral histories, studio photographs, and material records of Indian artisans.",
+      hero_sub: "Vernacular idol sculpture in India is an ephemeral sacred art—created for festivals and dissolved in water during immersion. Kalakar Project documents the workshops, artisan lineages, migration histories, and studio albums that make this living heritage possible.",
+      roster_label: "Sculptors in the Project",
+      about_label: "About the Project",
       about_title: "Preserving Workshop Heritage Beyond Visarjan",
       about_p1: "Traditional sculpture artisans across India—working with clay, wood armatures, natural fibers, and sacred iconography—carry deep generational knowledge that shapes our living heritage.",
-      about_p2: "Kalakar Collective builds dedicated monographs for individual sculptors, archiving their studio photographs, financial histories, and workshop collaborations. If you are an artisan, researcher, or family member with archival albums to share, we welcome your contributions to this collective memory.",
+      about_p2: "Kalakar Project builds dedicated monographs for individual sculptors, archiving their studio photographs, financial histories, and workshop collaborations. If you are an artisan, researcher, or family member with archival albums to share, we welcome your contributions to this project.",
       back_btn: "← Back to All Sculptors",
       studio_photos_title: "Studio & Workshop Photographs",
       studio_photos_count: "5 Documentation Plates",
@@ -34,22 +33,22 @@
       timeline_status_all: "Showing all 21 photographic records for 1980–2000 complete decade",
       timeline_status_year: "Showing photographic records for year",
       timeline_legend: "Album Sequence: 1980 – 2000",
-      view_profile_link: "View Studio Archive & Timeline →",
+      view_profile_link: "View Studio Collection & Timeline →",
       in_documentation: "Field Documentation in Progress",
       records_documented: "Plates Documented",
       key_hub: "Workshop Hub",
       key_era: "Active Period",
       key_studio: "Studio Name",
-      key_holdings: "Archive Holdings",
+      key_holdings: "Project Holdings",
       box_lineage: "Documented Studio Personalities & Lineage",
-      footer_text: "Kalakar Collective — An Artisans' Archive of India.",
+      footer_text: "Kalakar Project — Documenting the Traditional Sculptors of India.",
       // Peoples Page
-      people_label: "Kalakar Collective",
+      people_label: "Kalakar Project",
       people_title: "People",
-      people_sub: "The makers, keepers and researchers behind the archive.",
+      people_sub: "The makers, keepers and researchers behind the project.",
       artisans_tag: "Makers & Living Heritage",
       artisans_title: "The Artisans",
-      artisans_desc: "Kalakar Collective exists because of the traditional sculptors and craftspeople across India. They are the master makers, their families and apprentices, and the workshop hands who shape clay, straw, bamboo and pigment into images of the divine. Many learned the craft from their fathers and grandfathers, carrying deep histories of migration into regional workshops. Each artisan is credited here by name, in their own words wherever possible, and each record is shared with their consent.",
+      artisans_desc: "Kalakar Project exists because of the traditional sculptors and craftspeople across India. They are the master makers, their families and apprentices, and the workshop hands who shape clay, straw, bamboo and pigment into images of the divine. Many learned the craft from their fathers and grandfathers, carrying deep histories of migration into regional workshops. Each artisan is credited here by name, in their own words wherever possible, and each record is shared with their consent.",
       artisans_btn: "Browse the artisans →",
       founder_tag: "Research & Curation",
       founder_title: "Founder and Researcher",
@@ -58,87 +57,30 @@
       founder_p3: "His research centres on contemporary visual culture, with a particular concern for endangered artisanal practices. His work brings together ethnographic fieldwork, material culture studies and digital humanities. He also translates complex academic ideas into contemporary art, a quiet and considered way of communicating research.",
       contrib_tag: "Collaborative Preservation",
       contrib_title: "Contributors",
-      contrib_desc: "The archive grows through collective effort. Photographers, researchers, translators and community members contribute studio albums, oral histories and records. Each contributor is credited on the records they help create.",
+      contrib_desc: "The project grows through collaborative effort. Photographers, researchers, translators and community members contribute studio albums, oral histories and records. Each contributor is credited on the records they help create.",
       contrib_cta_title: "Want to contribute?",
-      contrib_cta_desc: "If you have photographic albums, field notes, audio recordings, or oral histories from sculpting workshops across India, we warmly invite you to help build this collective memory. Write to us at",
+      contrib_cta_desc: "If you have photographic albums, field notes, audio recordings, or oral histories from sculpting workshops across India, we warmly invite you to help build this project. Write to us at",
       consent_tag: "Ethics & Stewardship",
       consent_title: "A note on consent and credit",
       consent_desc: "Every artisan's name, image and words appear with their agreement. If you are an artisan or family member featured here and wish to change or withdraw a record, please contact us at"
     },
-    te: {
-      brand_name: "కళాకార్ కలెక్టివ్",
-      brand_meta: "శిల్పకారుల ఆర్కైవ్",
-      nav_sculptors: "శిల్పకారులు",
-      nav_map: "పటం",
-      nav_people: "వ్యక్తులు",
-      nav_about: "వివరాలు",
-      hero_title: "భారతదేశ సంప్రదాయ శిల్పకారుల మౌఖిక చరిత్రలు, స్టూడియో ఛాయాచిత్రాలు మరియు నిర్మాణ రీతులను భద్రపరిచే ఉచిత డిజిటల్ ఆర్కైవ్.",
-      hero_sub: "భారతదేశంలో ఉత్సవ విగ్రహ శిల్పం నిమజ్జనంతో ముగిసే పవిత్ర కళ. ఈ సజీవ సాంప్రదాయాన్ని నిలబెట్టే వర్క్‌షాప్‌లు, శిల్పకారుల వంశపారంపర్యాలు, మరియు స్టూడియో ఆల్బమ్‌లను కళాకార్ కలెక్టివ్ భద్రపరుస్తుంది.",
-      roster_label: "కలెక్టివ్‌లోని శిల్పకారులు",
-      map_label: "ప్రాంతీయ శిల్ప విస్తరణ పటం",
-      map_title: "స్టూడియో పనుల భౌగోళిక విస్తరణ",
-      map_desc: "రమేష్ సింగ్ కళాకార్ రూపొందించిన బృహత్ ఉత్సవ విగ్రహాలు మరియు వర్క్‌షాప్‌ల ప్రాంతీయ విస్తరణను భారతదేశం (తెలంగాణ, ఆంధ్రప్రదేశ్) పరిధిలో వీక్షించండి.",
-      map_nodes_title: "నమోదైన ప్రతిష్ఠాపనా కేంద్రాలు",
-      about_label: "కళాకార్ కలెక్టివ్ గురించి",
-      about_title: "నిమజ్జనం దాటి శిల్పకళా వారసత్వ పరిరక్షణ",
-      about_p1: "భారతదేశ వ్యాప్తంగా వివిధ ప్రాంతాల్లో పనిచేసే సంప్రదాయ శిల్పకారులు మట్టి, కొయ్య చట్రాలు, సహజ నారలు మరియు పవిత్ర ప్రతిమాశాస్త్రాలపై లోతైన వంశపారంపర్య పరిజ్ఞానాన్ని కలిగి ఉన్నారు.",
-      about_p2: "కళాకార్ కలెక్టివ్ భారతదేశ శిల్పులకు ప్రత్యేక మోనోగ్రాఫ్‌లను నిర్మిస్తుంది, వారి స్టూడియో ఛాయాచిత్రాలు, ఆర్థిక చరిత్రలు మరియు వర్క్‌షాప్ సహకారాలను భద్రపరుస్తుంది. మీ వద్ద ఉన్న ఆల్బమ్‌లను పంచుకోవడానికి శిల్పులు, పరిశోధకులను మేము ఆహ్వానిస్తున్నాము.",
-      back_btn: "← అందరు శిల్పకారుల వద్దకు",
-      studio_photos_title: "స్టూడియో & వర్క్‌షాప్ ఛాయాచిత్రాలు",
-      studio_photos_count: "5 చారిత్రక రికార్డులు",
-      timeline_title: "కాలక్రమణిక & ఛాయాచిత్ర రికార్డులు",
-      timeline_status_all: "1980–2000 దశాబ్దానికి సంబంధించిన మొత్తం 21 ఫోటో రికార్డులు ప్రదర్శించబడుతున్నాయి",
-      timeline_status_year: "సంవత్సరానికి సంబంధించిన రికార్డులు",
-      timeline_legend: "ఆల్బమ్ కాలం: 1980 – 2000",
-      view_profile_link: "స్టూడియో ఆర్కైవ్ & టైమ్‌లైన్ చూడండి →",
-      in_documentation: "ఫీల్డ్ డాక్యుమెంటేషన్ కొనసాగుతోంది",
-      records_documented: "ప్లేట్లు భద్రపరచబడ్డాయి",
-      key_hub: "వర్క్‌షాప్ కేంద్రం",
-      key_era: "కార్యాచరణ కాలం",
-      key_studio: "స్టూడియో పేరు",
-      key_holdings: "ఆర్కైవ్ నిల్వలు",
-      box_lineage: "డాక్యుమెంట్ చేయబడిన స్టూడియో శిల్పులు & వంశపారంపర్యం",
-      footer_text: "కళాకార్ కలెక్టివ్ — భారతదేశ శిల్పకారుల మౌఖిక చరిత్ర మరియు స్టూడియో ఆర్కైవ్.",
-      // Peoples Page
-      people_label: "కళాకార్ కలెక్టివ్",
-      people_title: "వ్యక్తులు",
-      people_sub: "ఆర్కైవ్ వెనుక ఉన్న శిల్పకారులు, సంరక్షకులు మరియు పరిశోధకులు.",
-      artisans_tag: "శిల్పులు & సజీవ వారసత్వం",
-      artisans_title: "శిల్పకారులు",
-      artisans_desc: "భారతదేశ సంప్రదాయ శిల్పకారులు మరియు హస్తకళాకారుల వల్లే కళాకార్ కలెక్టివ్ నిలిచింది. వారు ప్రధాన శిల్పులు, వారి కుటుంబాలు, శిష్యులు మరియు మట్టి, గడ్డి, వెదురు మరియు వర్ణాలతో దేవతామూర్తులను తీర్చిదిద్దే శ్రామికులు. చాలామంది ఈ కళను తమ తండ్రులు, తాతల నుండి నేర్చుకున్నారు. ప్రతి శిల్పిని వారి పేరుతో, వారి మాటలలో ఇక్కడ గౌరవిస్తున్నాము.",
-      artisans_btn: "శిల్పకారుల జాబితా చూడండి →",
-      founder_tag: "పరిశోధన & క్యూరేషన్",
-      founder_title: "వ్యవస్థాపకులు మరియు పరిశోధకులు",
-      founder_p1: "శరద్ చౌరాసియా లక్నోకు చెందిన కళా చరిత్రకారులు మరియు విజువల్ స్టడీస్ పరిశోధకులు. వీరు హైదరాబాద్ విశ్వవిద్యాలయం నుండి మాస్టర్ ఆఫ్ విజువల్ ఆర్ట్ (MVA) మరియు లక్నో విశ్వవిద్యాలయం నుండి బ్యాచిలర్ ఆఫ్ విజువల్ ఆర్ట్స్ (BVA) పూర్తి చేశారు.",
-      founder_p2: "వీరి పోస్ట్‌గ్రాడ్యుయేట్ పరిశోధనా వ్యాసం హైదరాబాద్‌లోని ధూల్‌పేట్‌కు చెందిన కదిలే దేవతా శిల్పాల నిర్మాణం మరియు శిల్పకారుల సంప్రదాయాలపై సాగింది. దీనితో పాటు నగరంలోని చెప్పుల కళాకారుల హస్తకళను కూడా వారు నమోదు చేశారు.",
-      founder_p3: "అంతరించిపోతున్న సంప్రదాయ శిల్ప పద్ధతుల పరిరక్షణ, ఎథ్నోగ్రాఫిక్ క్షేత్ర పరిశోధన, మెటీరియల్ కల్చర్ మరియు డిజిటల్ హ్యుమానిటీస్ కలయికగా వీరి పరిశోధన సాగుతుంది.",
-      contrib_tag: "సామూహిక పరిరక్షణ",
-      contrib_title: "సహకారులు",
-      contrib_desc: "ఈ ఆర్కైవ్ సామూహిక కృషి ద్వారా విస్తరిస్తుంది. ఫోటోగ్రాఫర్లు, పరిశోధకులు, అనువాదకులు మరియు సమాజ సభ్యులు స్టూడియో ఆల్బమ్‌లు మరియు మౌఖిక రికార్డులను అందిస్తున్నారు.",
-      contrib_cta_title: "సహకరించాలనుకుంటున్నారా?",
-      contrib_cta_desc: "మీ వద్ద భారతదేశ శిల్పకళాశాలల ఫోటో ఆల్బమ్‌లు, ఫీల్డ్ నోట్స్ లేదా మౌఖిక రికార్డులు ఉంటే, మాతో పంచుకోండి. మాకు రాయండి:",
-      consent_tag: "నైతికత & సంరక్షణ",
-      consent_title: "సమ్మతి మరియు గుర్తింపుపై సూచన",
-      consent_desc: "ప్రతి కళాకారుని పేరు, చిత్రం మరియు మాటలు వారి అంగీకారంతోనే ప్రచురించబడ్డాయి. ఏదైనా రికార్డును సవరించాలనుకుంటే సంప్రదించండి:"
-    },
     hi: {
-      brand_name: "कलाकार कलेक्टिव",
-      brand_meta: "शिल्पकारों का अभिलेखागार",
+      brand_name: "कलाकार का नगर",
+      brand_meta: "",
       nav_sculptors: "मूर्तिकार",
       nav_map: "मानचित्र",
+      map_label: "स्टूडियो भू-स्थान एवं फील्डवर्क",
+      map_title: "कारीगर कार्यशाला निर्देशांक",
+      map_desc: "फील्डवर्क के दौरान दर्ज किए गए मूर्ति निर्माण स्टूडियो के भौगोलिक निर्देशांक। कार्यशाला विवरण, फोटो की तिथि और छायाचित्र संग्रह देखने के लिए किसी भी निर्देशांक पर माउस ले जाएं।",
       nav_people: "सहयोगी एवं शोधकर्ता",
       nav_about: "परिचय",
-      hero_title: "भारत के पारंपरिक मूर्तिकारों के मौखिक इतिहास, स्टूडियो छायाचित्रों और शिल्प पद्धतियों को संरक्षित करने वाला खुला डिजिटल अभिलेखागार।",
-      hero_sub: "भारत में पारम्परिक मूर्ति शिल्प एक क्षणभंगुर पावन कला है—जो उत्सवों के लिए रची जाती है और विसर्जन के साथ विलीन हो जाती है। कलाकार कलेक्टिव उन कार्यशालाओं, कारीगरों के इतिहास और स्टूडियो एल्बमों का दस्तावेजीकरण करता है।",
-      roster_label: "कलेक्टिव के प्रमुख मूर्तिकार",
-      map_label: "क्षेत्रीय मूर्तिकला मानचित्र",
-      map_title: "स्टूडियो कृतियों का भौगोलिक विस्तार",
-      map_desc: "रमेश सिंह कलाकार द्वारा निर्मित भव्य मूर्तियों और स्टूडियो केंद्रों के क्षेत्रीय विस्तार का भारत (हैदराबाद, तेलंगाना एवं आंध्र प्रदेश) में अवलोकन।",
-      map_nodes_title: "प्रमुख अधिष्ठापन केंद्र",
-      about_label: "कलाकार कलेक्टिव के बारे में",
+      hero_title: "भारत के पारंपरिक मूर्तिकारों के मौखिक इतिहास, स्टूडियो छायाचित्रों और शिल्प पद्धतियों को संरक्षित करने वाला खुला डिजिटल प्रोजेक्ट।",
+      hero_sub: "भारत में पारम्परिक मूर्ति शिल्प एक क्षणभंगुर पावन कला है—जो उत्सवों के लिए रची जाती है और विसर्जन के साथ विलीन हो जाती है। कलाकार प्रोजेक्ट उन कार्यशालाओं, कारीगरों के इतिहास और स्टूडियो एल्बमों का दस्तावेजीकरण करता है।",
+      roster_label: "प्रोजेक्ट के प्रमुख मूर्तिकार",
+      about_label: "कलाकार प्रोजेक्ट के बारे में",
       about_title: "विसर्जन के पार कार्यशाला विरासत का संरक्षण",
       about_p1: "भारत भर में काम करने वाले पारंपरिक मूर्तिकार मिट्टी, काष्ठ ढाँचों, प्राकृतिक रेशों और पवित्र प्रतिमा-विज्ञान का गहरा पीढ़ी-दर-पीढ़ी ज्ञान संजोए हुए हैं।",
-      about_p2: "कलाकार कलेक्टिव भारत भर के मूर्तिकारों के लिए समर्पित मोनोग्राफ तैयार करता है, उनके स्टूडियो छायाचित्रों, वित्तीय अभिलेखों और कार्यशाला के सहयोग को संरक्षित करता है। हम भारत भर के कारीगरों और शोधकर्ताओं का स्वागत करते हैं।",
+      about_p2: "कलाकार प्रोजेक्ट भारत भर के मूर्तिकारों के लिए समर्पित मोनोग्राफ तैयार करता है, उनके स्टूडियो छायाचित्रों, वित्तीय अभिलेखों और कार्यशाला के सहयोग को संरक्षित करता है। हम भारत भर के कारीगरों और शोधकर्ताओं का स्वागत करते हैं।",
       back_btn: "← सभी मूर्तिकारों की सूची",
       studio_photos_title: "स्टूडियो एवं कार्यशाला के छायाचित्र",
       studio_photos_count: "5 ऐतिहासिक प्लेट्स",
@@ -146,7 +88,7 @@
       timeline_status_all: "1980–2000 दशक के सभी 21 छायाचित्र अभिलेख प्रदर्शित हैं",
       timeline_status_year: "वर्ष के लिए अभिलेख",
       timeline_legend: "एल्बम काल: 1980 – 2000",
-      view_profile_link: "स्टूडियो आर्काइव एवं टाइमलाइन देखें →",
+      view_profile_link: "स्टूडियो संग्रह एवं टाइमलाइन देखें →",
       in_documentation: "दस्तावेजीकरण प्रक्रिया जारी है",
       records_documented: "प्लेट्स संकलित",
       key_hub: "कार्यशाला केंद्र",
@@ -154,14 +96,14 @@
       key_studio: "स्टूडियो का नाम",
       key_holdings: "संग्रह स्थिति",
       box_lineage: "अभिलेखित कार्यशाला कलाकार एवं परंपरा",
-      footer_text: "कलाकार कलेक्टिव — भारतीय शिल्पकारों का मौखिक इतिहास एवं स्टूडियो अभिलेखागार।",
+      footer_text: "कलाकार प्रोजेक्ट — भारतीय शिल्पकारों का मौखिक इतिहास एवं स्टूडियो संग्रह।",
       // Peoples Page
-      people_label: "कलाकार कलेक्टिव",
+      people_label: "कलाकार प्रोजेक्ट",
       people_title: "सहयोगी एवं शोधकर्ता",
-      people_sub: "अभिलेखागार के निर्माता, संरक्षक और शोधकर्ता।",
+      people_sub: "प्रोजेक्ट के निर्माता, संरक्षक और शोधकर्ता।",
       artisans_tag: "शिल्पकार एवं सजीव विरासत",
       artisans_title: "शिल्पकार",
-      artisans_desc: "कलाकार कलेक्टिव भारत भर के पारंपरिक मूर्तिकारों एवं कारीगरों के दम पर ही जीवित है। वे मुख्य निर्माता, उनके परिवार, शिष्य और कार्यशालाओं के हाथ हैं जो मिट्टी, पुआल, बांस और रंगों से ईश्वरीय प्रतिमाओं को आकार देते हैं। कई लोगों ने यह कला अपने पिताओं और दादाओं से सीखी है। प्रत्येक शिल्पकार को यहां उनके नाम और सहमति के साथ प्रस्तुत किया गया है।",
+      artisans_desc: "कलाकार प्रोजेक्ट भारत भर के पारंपरिक मूर्तिकारों एवं कारीगरों के दम पर ही जीवित है। वे मुख्य निर्माता, उनके परिवार, शिष्य और कार्यशालाओं के हाथ हैं जो मिट्टी, पुआल, बांस और रंगों से ईश्वरीय प्रतिमाओं को आकार देते हैं। कई लोगों ने यह कला अपने पिताओं और दादाओं से सीखी है। प्रत्येक शिल्पकार को यहां उनके नाम और सहमति के साथ प्रस्तुत किया गया है।",
       artisans_btn: "मूर्तिकारों की सूची देखें →",
       founder_tag: "शोध एवं संकलन",
       founder_title: "संस्थापक एवं शोधकर्ता",
@@ -170,7 +112,7 @@
       founder_p3: "उनका शोध समकालीन दृश्य संस्कृति और विशेष रूप से लुप्तप्राय शिल्प पद्धतियों पर केंद्रित है। उनका कार्य नृवंशविज्ञान, भौतिक संस्कृति अध्ययन और डिजिटल मानविकी को एक साथ लाता है।",
       contrib_tag: "सामूहिक संरक्षण",
       contrib_title: "सहयोगकर्ता",
-      contrib_desc: "यह अभिलेखागार सामूहिक प्रयास से बढ़ता है। फोटोग्राफर, शोधकर्ता, अनुवादक और समुदाय के सदस्य स्टूडियो एल्बम, मौखिक इतिहास और रिकॉर्ड का योगदान करते हैं।",
+      contrib_desc: "यह प्रोजेक्ट सामूहिक प्रयास से बढ़ता है। फोटोग्राफर, शोधकर्ता, अनुवादक और समुदाय के सदस्य स्टूडियो एल्बम, मौखिक इतिहास और रिकॉर्ड का योगदान करते हैं।",
       contrib_cta_title: "क्या आप योगदान देना चाहते हैं?",
       contrib_cta_desc: "यदि आपके पास भारत भर की मूर्तिकला कार्यशालाओं के स्टूडियो एल्बम, फोटोग्राफ या मौखिक इतिहास हैं, तो हमसे संपर्क करें:",
       consent_tag: "नैतिकता एवं श्रेय",
@@ -178,6 +120,689 @@
       consent_desc: "प्रत्येक शिल्पकार का नाम, चित्र और शब्द उनकी सहमति से प्रकाशित हैं। यदि आप कोई रिकॉर्ड बदलना या वापस लेना चाहते हैं, तो हमसे संपर्क करें:"
     }
   };
+
+
+  // --- Studio Geolocation Data (26 Fieldwork Locations & 262 Photographs) ---
+  const STUDIO_LOCATIONS = [
+  {
+    "id": 1,
+    "studio_name": "Studio #01",
+    "lat": 17.374061,
+    "lon": 78.459047,
+    "coord_label": "17.3741\u00b0 N, 78.4590\u00b0 E",
+    "locality": "Rahimpura",
+    "suburb": "Ward 63 Mangalhat",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Mangalhat / Rahimpura Hub",
+    "location_display": "Rahimpura, Ward 63 Mangalhat (Asif Nagar mandal)",
+    "date": "2025-04-10, 2025-04-12",
+    "photo_count": 44,
+    "images": [
+      "IMG20250410181930.jpg",
+      "IMG20250410181939.jpg",
+      "IMG20250410181940.jpg",
+      "IMG20250410182113.jpg",
+      "IMG20250410182115.jpg",
+      "IMG20250410182612.jpg",
+      "IMG20250410182617.jpg",
+      "IMG20250410182620.jpg",
+      "IMG20250410182628.jpg",
+      "IMG20250410182632.jpg",
+      "IMG20250410182640.jpg",
+      "IMG20250410182643.jpg",
+      "IMG20250410182647.jpg",
+      "IMG20250410182716.jpg",
+      "IMG20250410182717.jpg",
+      "IMG20250410182816.jpg",
+      "IMG20250410182817.jpg",
+      "IMG20250410183109.jpg",
+      "IMG20250410183111.jpg",
+      "IMG20250410184637.jpg",
+      "IMG20250410184639.jpg",
+      "IMG20250412144720.jpg",
+      "IMG20250412144722.jpg",
+      "IMG20250412144748.jpg",
+      "IMG20250412144752.jpg",
+      "IMG20250412144756.jpg",
+      "IMG20250412144807.jpg",
+      "IMG20250412145941.jpg",
+      "IMG20250412145951.jpg",
+      "IMG20250412145954.jpg",
+      "IMG20250412145956.jpg",
+      "IMG20250412150034.jpg",
+      "IMG20250412150037.jpg",
+      "IMG20250412151540.jpg",
+      "IMG20250412151541.jpg",
+      "IMG20250412153532.jpg",
+      "IMG20250412153538.jpg",
+      "IMG20250412153547.jpg",
+      "IMG20250412153548.jpg",
+      "IMG20250412153553.jpg",
+      "IMG20250412153554.jpg",
+      "IMG20250412153607.jpg",
+      "IMG20250412153611.jpg",
+      "IMG20250412153612.jpg"
+    ]
+  },
+  {
+    "id": 2,
+    "studio_name": "Studio #02",
+    "lat": 17.374688,
+    "lon": 78.460312,
+    "coord_label": "17.3747\u00b0 N, 78.4603\u00b0 E",
+    "locality": "Dhoolpet",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Dhoolpet / Goshamahal Hub",
+    "location_display": "Dhoolpet, Goshamahal (Nampally mandal)",
+    "date": "2025-04-10",
+    "photo_count": 35,
+    "images": [
+      "IMG20250410175132.jpg",
+      "IMG20250410175137.jpg",
+      "IMG20250410175140.jpg",
+      "IMG20250410175159.jpg",
+      "IMG20250410175201.jpg",
+      "IMG20250410175213.jpg",
+      "IMG20250410175227.jpg",
+      "IMG20250410175231.jpg",
+      "IMG20250410175233.jpg",
+      "IMG20250410175312.jpg",
+      "IMG20250410175336.jpg",
+      "IMG20250410175338.jpg",
+      "IMG20250410175340.jpg",
+      "IMG20250410175354.jpg",
+      "IMG20250410175356.jpg",
+      "IMG20250410175359.jpg",
+      "IMG20250410175401.jpg",
+      "IMG20250410175403.jpg",
+      "IMG20250410175426.jpg",
+      "IMG20250410175427.jpg",
+      "IMG20250410175432.jpg",
+      "IMG20250410175448.jpg",
+      "IMG20250410175457.jpg",
+      "IMG20250410175508.jpg",
+      "IMG20250410175510.jpg",
+      "IMG20250410175528.jpg",
+      "IMG20250410175529.jpg",
+      "IMG20250410180323.jpg",
+      "IMG20250410180325.jpg",
+      "IMG20250410180334.jpg",
+      "IMG20250410180335.jpg",
+      "IMG20250410180359.jpg",
+      "IMG20250410180400.jpg",
+      "IMG20250410181354.jpg",
+      "IMG20250410181509.jpg"
+    ]
+  },
+  {
+    "id": 3,
+    "studio_name": "Studio #03",
+    "lat": 17.377402,
+    "lon": 78.454019,
+    "coord_label": "17.3774\u00b0 N, 78.4540\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-11, 2025-04-12",
+    "photo_count": 28,
+    "images": [
+      "IMG20250411191430.jpg",
+      "IMG20250411191434.jpg",
+      "IMG20250411191446.jpg",
+      "IMG20250411191447.jpg",
+      "IMG20250411191450.jpg",
+      "IMG20250411191450_01.jpg",
+      "IMG20250411191522.jpg",
+      "IMG20250411191536.jpg",
+      "IMG20250411191543.jpg",
+      "IMG20250411191546.jpg",
+      "IMG20250411191547.jpg",
+      "IMG20250411191555.jpg",
+      "IMG20250411191600.jpg",
+      "IMG20250411191603.jpg",
+      "IMG20250411191615.jpg",
+      "IMG20250411191627.jpg",
+      "IMG20250411191630.jpg",
+      "IMG20250411191631.jpg",
+      "IMG20250411191637.jpg",
+      "IMG20250411191639.jpg",
+      "IMG20250411191642.jpg",
+      "IMG20250411191646.jpg",
+      "IMG20250411191653.jpg",
+      "IMG20250411191654.jpg",
+      "IMG20250411191731.jpg",
+      "IMG20250411192429.jpg",
+      "IMG20250411192431.jpg",
+      "IMG20250412164257.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "studio_name": "Studio #04",
+    "lat": 17.377407,
+    "lon": 78.455901,
+    "coord_label": "17.3774\u00b0 N, 78.4559\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 26,
+    "images": [
+      "IMG20250412182934.jpg",
+      "IMG20250412182942.jpg",
+      "IMG20250412182945.jpg",
+      "IMG20250412182946.jpg",
+      "IMG20250412183044.jpg",
+      "IMG20250412183045.jpg",
+      "IMG20250412183132.jpg",
+      "IMG20250412183133.jpg",
+      "IMG20250412183136.jpg",
+      "IMG20250412183137.jpg",
+      "IMG20250412183202.jpg",
+      "IMG20250412183203.jpg",
+      "IMG20250412183204.jpg",
+      "IMG20250412184956.jpg",
+      "IMG20250412185000.jpg",
+      "IMG20250412185002.jpg",
+      "IMG20250412185004.jpg",
+      "IMG20250412185008.jpg",
+      "IMG20250412185008_01.jpg",
+      "IMG20250412190344.jpg",
+      "IMG20250412190346.jpg",
+      "IMG20250412190350.jpg",
+      "IMG20250412190359.jpg",
+      "IMG20250412190402.jpg",
+      "IMG20250412190413.jpg",
+      "IMG20250412190414.jpg"
+    ]
+  },
+  {
+    "id": 5,
+    "studio_name": "Studio #05",
+    "lat": 17.376222,
+    "lon": 78.453588,
+    "coord_label": "17.3762\u00b0 N, 78.4536\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 16,
+    "images": [
+      "IMG20250412161720.jpg",
+      "IMG20250412161740.jpg",
+      "IMG20250412161751.jpg",
+      "IMG20250412161754.jpg",
+      "IMG20250412161755.jpg",
+      "IMG20250412162606.jpg",
+      "IMG20250412162609.jpg",
+      "IMG20250412162619.jpg",
+      "IMG20250412162621.jpg",
+      "IMG20250412162629.jpg",
+      "IMG20250412162632.jpg",
+      "IMG20250412162640.jpg",
+      "IMG20250412162708.jpg",
+      "IMG20250412162709.jpg",
+      "IMG20250412162711.jpg",
+      "IMG20250412162830.jpg"
+    ]
+  },
+  {
+    "id": 6,
+    "studio_name": "Studio #06",
+    "lat": 17.373978,
+    "lon": 78.459831,
+    "coord_label": "17.3740\u00b0 N, 78.4598\u00b0 E",
+    "locality": "Dhoolpet",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Dhoolpet / Goshamahal Hub",
+    "location_display": "Dhoolpet, Goshamahal (Nampally mandal)",
+    "date": "2025-04-10",
+    "photo_count": 15,
+    "images": [
+      "IMG20250410181715.jpg",
+      "IMG20250410181716.jpg",
+      "IMG20250410181751.jpg",
+      "IMG20250410181751_01.jpg",
+      "IMG20250410181759.jpg",
+      "IMG20250410181817.jpg",
+      "IMG20250410181818.jpg",
+      "IMG20250410182038.jpg",
+      "IMG20250410182042.jpg",
+      "IMG20250410182053.jpg",
+      "IMG20250410182955.jpg",
+      "IMG20250410182956.jpg",
+      "IMG20250410183844.jpg",
+      "IMG20250410183846.jpg",
+      "IMG20250410183856.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "studio_name": "Studio #07",
+    "lat": 17.374126,
+    "lon": 78.457942,
+    "coord_label": "17.3741\u00b0 N, 78.4579\u00b0 E",
+    "locality": "Rahimpura",
+    "suburb": "Ward 63 Mangalhat",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Mangalhat / Rahimpura Hub",
+    "location_display": "Rahimpura, Ward 63 Mangalhat (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 10,
+    "images": [
+      "IMG20250412143731.jpg",
+      "IMG20250412143738.jpg",
+      "IMG20250412143740.jpg",
+      "IMG20250412143755.jpg",
+      "IMG20250412143759.jpg",
+      "IMG20250412143812.jpg",
+      "IMG20250412143813.jpg",
+      "IMG20250412143858.jpg",
+      "IMG20250412143904.jpg",
+      "IMG20250412144125.jpg"
+    ]
+  },
+  {
+    "id": 8,
+    "studio_name": "Studio #08",
+    "lat": 17.369239,
+    "lon": 78.46015,
+    "coord_label": "17.3692\u00b0 N, 78.4601\u00b0 E",
+    "locality": "Jummeraat Bazaar",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Dhoolpet / Goshamahal Hub",
+    "location_display": "Jummeraat Bazaar, Goshamahal (Nampally mandal)",
+    "date": "2025-04-12",
+    "photo_count": 9,
+    "images": [
+      "IMG20250412134459.jpg",
+      "IMG20250412134506.jpg",
+      "IMG20250412134612.jpg",
+      "IMG20250412135321.jpg",
+      "IMG20250412135436.jpg",
+      "IMG20250412135437.jpg",
+      "IMG20250412135511.jpg",
+      "IMG20250412135512.jpg",
+      "IMG20250412135526.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "studio_name": "Studio #09",
+    "lat": 17.376952,
+    "lon": 78.456955,
+    "coord_label": "17.3770\u00b0 N, 78.4570\u00b0 E",
+    "locality": "Mangalhat",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Mangalhat, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 9,
+    "images": [
+      "IMG20250412190815.jpg",
+      "IMG20250412190835.jpg",
+      "IMG20250412190853.jpg",
+      "IMG20250412190854.jpg",
+      "IMG20250412190949.jpg",
+      "IMG20250412190950.jpg",
+      "IMG20250412190953.jpg",
+      "IMG20250412190957.jpg",
+      "IMG20250412190957_01.jpg"
+    ]
+  },
+  {
+    "id": 10,
+    "studio_name": "Studio #10",
+    "lat": 17.370783,
+    "lon": 78.462311,
+    "coord_label": "17.3708\u00b0 N, 78.4623\u00b0 E",
+    "locality": "Jummeraat Bazaar",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Begum Bazaar / Chudi Bazaar Hub",
+    "location_display": "Jummeraat Bazaar, Goshamahal (Nampally mandal)",
+    "date": "2025-04-10, 2025-04-12",
+    "photo_count": 8,
+    "images": [
+      "IMG20250410171703.jpg",
+      "IMG20250410171706.jpg",
+      "IMG20250410171753.jpg",
+      "IMG20250410171758.jpg",
+      "IMG20250410171807.jpg",
+      "IMG20250410171808.jpg",
+      "IMG20250412131539.jpg",
+      "IMG20250412131542.jpg"
+    ]
+  },
+  {
+    "id": 11,
+    "studio_name": "Studio #11",
+    "lat": 17.369558,
+    "lon": 78.460012,
+    "coord_label": "17.3696\u00b0 N, 78.4600\u00b0 E",
+    "locality": "Jummeraat Bazaar",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Dhoolpet / Goshamahal Hub",
+    "location_display": "Jummeraat Bazaar, Goshamahal (Nampally mandal)",
+    "date": "2025-04-12",
+    "photo_count": 8,
+    "images": [
+      "IMG20250412134136.jpg",
+      "IMG20250412134148.jpg",
+      "IMG20250412134150.jpg",
+      "IMG20250412134204.jpg",
+      "IMG20250412134205.jpg",
+      "IMG20250412134245.jpg",
+      "IMG20250412135306.jpg",
+      "IMG20250412135308.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "studio_name": "Studio #12",
+    "lat": 17.376898,
+    "lon": 78.455482,
+    "coord_label": "17.3769\u00b0 N, 78.4555\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 6,
+    "images": [
+      "IMG20250412182959.jpg",
+      "IMG20250412183000.jpg",
+      "IMG20250412183017.jpg",
+      "IMG20250412183020.jpg",
+      "IMG20250412183027.jpg",
+      "IMG20250412183028.jpg"
+    ]
+  },
+  {
+    "id": 13,
+    "studio_name": "Studio #13",
+    "lat": 17.370863,
+    "lon": 78.463186,
+    "coord_label": "17.3709\u00b0 N, 78.4632\u00b0 E",
+    "locality": "Chudi Bazaar",
+    "suburb": "Begum Bazaar",
+    "mandal": "Nampally mandal",
+    "hub": "Begum Bazaar / Chudi Bazaar Hub",
+    "location_display": "Chudi Bazaar, Begum Bazaar (Nampally mandal)",
+    "date": "2025-04-12",
+    "photo_count": 8,
+    "images": [
+      "IMG20250412131125.jpg",
+      "IMG20250412131124.jpg",
+      "IMG20250412131109.jpg",
+      "IMG20250412131213.jpg",
+      "IMG20250412131214.jpg",
+      "IMG20250412131220.jpg",
+      "IMG20250412131401.jpg",
+      "IMG20250412131403.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "studio_name": "Studio #14",
+    "lat": 17.37864,
+    "lon": 78.454711,
+    "coord_label": "17.3786\u00b0 N, 78.4547\u00b0 E",
+    "locality": "Sibli Hills",
+    "suburb": "Ward 63 Mangalhat",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Mangalhat / Rahimpura Hub",
+    "location_display": "Sibli Hills, Ward 63 Mangalhat (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 5,
+    "images": [
+      "IMG20250412173454.jpg",
+      "IMG20250412173455.jpg",
+      "IMG20250412173513.jpg",
+      "IMG20250412173514.jpg",
+      "IMG20250412173515.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "studio_name": "Studio #15",
+    "lat": 17.372132,
+    "lon": 78.460552,
+    "coord_label": "17.3721\u00b0 N, 78.4606\u00b0 E",
+    "locality": "Dhoolpet",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Dhoolpet / Goshamahal Hub",
+    "location_display": "Dhoolpet, Goshamahal (Nampally mandal)",
+    "date": "2025-04-12",
+    "photo_count": 4,
+    "images": [
+      "IMG20250412132154.jpg",
+      "IMG20250412132204.jpg",
+      "IMG20250412132227.jpg",
+      "IMG20250412132230.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "studio_name": "Studio #16",
+    "lat": 17.369084,
+    "lon": 78.460601,
+    "coord_label": "17.3691\u00b0 N, 78.4606\u00b0 E",
+    "locality": "Jummeraat Bazaar",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Dhoolpet / Goshamahal Hub",
+    "location_display": "Jummeraat Bazaar, Goshamahal (Nampally mandal)",
+    "date": "2025-04-12",
+    "photo_count": 4,
+    "images": [
+      "IMG20250412134650.jpg",
+      "IMG20250412134651.jpg",
+      "IMG20250412134702.jpg",
+      "IMG20250412134703.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "studio_name": "Studio #17",
+    "lat": 17.375426,
+    "lon": 78.453911,
+    "coord_label": "17.3754\u00b0 N, 78.4539\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 4,
+    "images": [
+      "IMG20250412160947.jpg",
+      "IMG20250412160948.jpg",
+      "IMG20250412161143.jpg",
+      "IMG20250412161144.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "studio_name": "Studio #18",
+    "lat": 17.37734,
+    "lon": 78.453209,
+    "coord_label": "17.3773\u00b0 N, 78.4532\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 4,
+    "images": [
+      "IMG20250412164241.jpg",
+      "IMG20250412164246.jpg",
+      "IMG20250412164250.jpg",
+      "IMG20250412164255.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "studio_name": "Studio #19",
+    "lat": 17.377958,
+    "lon": 78.455084,
+    "coord_label": "17.3780\u00b0 N, 78.4551\u00b0 E",
+    "locality": "Sibli Hills",
+    "suburb": "Ward 63 Mangalhat",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Mangalhat / Rahimpura Hub",
+    "location_display": "Sibli Hills, Ward 63 Mangalhat (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 4,
+    "images": [
+      "IMG20250412172339.jpg",
+      "IMG20250412173400.jpg",
+      "IMG20250412173401.jpg",
+      "IMG20250412173421.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "studio_name": "Studio #20",
+    "lat": 17.378769,
+    "lon": 78.45433,
+    "coord_label": "17.3788\u00b0 N, 78.4543\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 4,
+    "images": [
+      "IMG20250412173427.jpg",
+      "IMG20250412173428.jpg",
+      "IMG20250412173440.jpg",
+      "IMG20250412173441.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "studio_name": "Studio #21",
+    "lat": 17.377523,
+    "lon": 78.453987,
+    "coord_label": "17.3775\u00b0 N, 78.4540\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-11",
+    "photo_count": 3,
+    "images": [
+      "IMG20250411191703.jpg",
+      "IMG20250411191711.jpg",
+      "IMG20250411191714.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "studio_name": "Studio #22",
+    "lat": 17.374962,
+    "lon": 78.462715,
+    "coord_label": "17.3750\u00b0 N, 78.4627\u00b0 E",
+    "locality": "Chudi Bazaar",
+    "suburb": "Begum Bazaar",
+    "mandal": "Nampally mandal",
+    "hub": "Begum Bazaar / Chudi Bazaar Hub",
+    "location_display": "Chudi Bazaar, Begum Bazaar (Nampally mandal)",
+    "date": "2025-04-10",
+    "photo_count": 2,
+    "images": [
+      "IMG20250410173621.jpg",
+      "IMG20250410173623.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "studio_name": "Studio #23",
+    "lat": 17.375315,
+    "lon": 78.458717,
+    "coord_label": "17.3753\u00b0 N, 78.4587\u00b0 E",
+    "locality": "Rahimpura",
+    "suburb": "Ward 63 Mangalhat",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Mangalhat / Rahimpura Hub",
+    "location_display": "Rahimpura, Ward 63 Mangalhat (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 2,
+    "images": [
+      "IMG20250412154756.jpg",
+      "IMG20250412154757.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "studio_name": "Studio #24",
+    "lat": 17.375397,
+    "lon": 78.455498,
+    "coord_label": "17.3754\u00b0 N, 78.4555\u00b0 E",
+    "locality": "Bangladeshi Colony",
+    "suburb": "Ward 64 Dattatreya Nagar",
+    "mandal": "Asif Nagar mandal",
+    "hub": "Dattatreya Nagar / Bangladeshi Colony Hub",
+    "location_display": "Bangladeshi Colony, Ward 64 Dattatreya Nagar (Asif Nagar mandal)",
+    "date": "2025-04-12",
+    "photo_count": 2,
+    "images": [
+      "IMG20250412160622.jpg",
+      "IMG20250412160623.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "studio_name": "Studio #25",
+    "lat": 17.375124,
+    "lon": 78.460556,
+    "coord_label": "17.3751\u00b0 N, 78.4606\u00b0 E",
+    "locality": "Ghode Ki Khabr",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Dhoolpet / Goshamahal Hub",
+    "location_display": "Ghode Ki Khabr, Goshamahal (Nampally mandal)",
+    "date": "2025-04-10",
+    "photo_count": 1,
+    "images": [
+      "IMG20250410174735.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "studio_name": "Studio #26",
+    "lat": 17.370897,
+    "lon": 78.45874,
+    "coord_label": "17.3709\u00b0 N, 78.4587\u00b0 E",
+    "locality": "Dhoolpet",
+    "suburb": "Goshamahal",
+    "mandal": "Nampally mandal",
+    "hub": "Dhoolpet / Goshamahal Hub",
+    "location_display": "Dhoolpet, Goshamahal (Nampally mandal)",
+    "date": "2025-04-12",
+    "photo_count": 1,
+    "images": [
+      "IMG20250412192630.jpg"
+    ]
+  }
+];
 
   // --- Archival Data Definition ---
   const ARCHIVE_DATA = {
@@ -280,9 +905,9 @@
       },
       {
         id: "kumharwadi-masters",
-        name: "Kumharwadi Terracotta Collective",
+        name: "Kumharwadi Terracotta Project",
         name_te: "కుంభార్‌వాడి టెర్రకోట సమాఖ్య",
-        name_hi: "कुम्हारवाड़ी टेराकोटा कलेक्टिव",
+        name_hi: "कुम्हारवाड़ी टेराकोटा प्रोजेक्ट",
         honorific: "Votive & Ceramic Masters",
         honorific_te: "సాంప్రదాయ కుండల & మట్టి కళాకారులు",
         honorific_hi: "पारंपरिक मृत्तिका एवं घट शिल्पकार",
@@ -599,7 +1224,7 @@
         dimensions: "8ft. X 12ft. (Ensemble)",
         making_cost: "50,000 Rs.",
         selling_cost: "1,20,000 Rs.",
-        commission: "Temple Trust / Begum Bazaar Collective",
+        commission: "Temple Trust / Begum Bazaar Project",
         location: "Begum Bazaar Studio",
         personalities: [],
         concept: "Dual assembly featuring Radha-Krishna with Kamadhenu cow on the left, and Lord Rama with Sita, Lakshmana, Bharata, Shatrughna, and Hanuman on the right.",
@@ -624,8 +1249,9 @@
   };
 
   // --- Application State ---
+  const storedLang = localStorage.getItem('kalakar_lang');
   const state = {
-    lang: localStorage.getItem('kalakar_lang') || 'en',
+    lang: (storedLang === 'hi') ? 'hi' : 'en',
     currentView: 'directory', // 'directory' | 'sculptor'
     activeSculptorId: null,
     selectedYear: 'all',
@@ -773,6 +1399,15 @@
     dom.locModalPlatesGrid = document.getElementById('loc-modal-plates-grid');
     dom.locModalGoTimeline = document.getElementById('loc-modal-go-timeline');
 
+    // Studio Map & Lightbox elements
+    dom.studioOsmMap = document.getElementById('studio-osm-map');
+    dom.studioDetailPanel = document.getElementById('studio-detail-panel');
+    dom.studioImageGallery = document.getElementById('studio-image-gallery');
+    dom.studioLightboxModal = document.getElementById('studio-lightbox-modal');
+    dom.lightboxCloseBtn = document.getElementById('lightbox-close-btn');
+    dom.lightboxPrevBtn = document.getElementById('lightbox-prev-btn');
+    dom.lightboxNextBtn = document.getElementById('lightbox-next-btn');
+
     // Language buttons
     dom.langBtns = document.querySelectorAll('.lang-btn');
 
@@ -785,6 +1420,9 @@
 
   // --- Language Switcher Logic ---
   function applyLanguage(lang) {
+    if (!TRANSLATIONS[lang]) {
+      lang = 'en';
+    }
     state.lang = lang;
     localStorage.setItem('kalakar_lang', lang);
     document.documentElement.setAttribute('lang', lang);
@@ -941,14 +1579,9 @@
         card.onclick = () => navigateToSculptor(sculptor.id);
       }
 
-      const displayName = state.lang === 'te' && sculptor.name_te ? sculptor.name_te 
-                        : (state.lang === 'hi' && sculptor.name_hi ? sculptor.name_hi : sculptor.name);
-
-      const displayStudio = state.lang === 'te' && sculptor.studio_name_te ? sculptor.studio_name_te 
-                          : (state.lang === 'hi' && sculptor.studio_name_hi ? sculptor.studio_name_hi : sculptor.studio_name);
-
-      const displayLoc = state.lang === 'te' && sculptor.location_te ? sculptor.location_te 
-                       : (state.lang === 'hi' && sculptor.location_hi ? sculptor.location_hi : sculptor.location);
+      const displayName = state.lang === 'hi' && sculptor.name_hi ? sculptor.name_hi : sculptor.name;
+      const displayStudio = state.lang === 'hi' && sculptor.studio_name_hi ? sculptor.studio_name_hi : sculptor.studio_name;
+      const displayLoc = state.lang === 'hi' && sculptor.location_hi ? sculptor.location_hi : sculptor.location;
 
       const footerAction = sculptor.status === 'active'
         ? `<span class="view-profile-link">${t.view_profile_link}</span>`
@@ -969,7 +1602,7 @@
           <img src="${sculptor.portrait_image}" class="sculptor-portrait" alt="${displayName}" loading="lazy">
         </div>
 
-        <p class="sculptor-bio-snippet">${(state.lang === 'te' && sculptor.bio_paragraphs_te ? sculptor.bio_paragraphs_te[0] : (state.lang === 'hi' && sculptor.bio_paragraphs_hi ? sculptor.bio_paragraphs_hi[0] : sculptor.bio_paragraphs[0]))}</p>
+        <p class="sculptor-bio-snippet">${(state.lang === 'hi' && sculptor.bio_paragraphs_hi ? sculptor.bio_paragraphs_hi[0] : sculptor.bio_paragraphs[0])}</p>
 
         <div class="sculptor-card-footer">
           <span class="records-badge">${sculptor.records_count > 0 ? sculptor.records_count + ' ' + t.records_documented : t.in_documentation}</span>
@@ -987,17 +1620,10 @@
     if (!sculptor) return;
     const t = TRANSLATIONS[state.lang] || TRANSLATIONS.en;
 
-    const displayName = state.lang === 'te' && sculptor.name_te ? sculptor.name_te 
-                      : (state.lang === 'hi' && sculptor.name_hi ? sculptor.name_hi : sculptor.name);
-
-    const displayHonorific = state.lang === 'te' && sculptor.honorific_te ? sculptor.honorific_te 
-                           : (state.lang === 'hi' && sculptor.honorific_hi ? sculptor.honorific_hi : sculptor.honorific);
-
-    const displayStudio = state.lang === 'te' && sculptor.studio_name_te ? sculptor.studio_name_te 
-                        : (state.lang === 'hi' && sculptor.studio_name_hi ? sculptor.studio_name_hi : sculptor.studio_name);
-
-    const displayLoc = state.lang === 'te' && sculptor.location_te ? sculptor.location_te 
-                     : (state.lang === 'hi' && sculptor.location_hi ? sculptor.location_hi : sculptor.location);
+    const displayName = state.lang === 'hi' && sculptor.name_hi ? sculptor.name_hi : sculptor.name;
+    const displayHonorific = state.lang === 'hi' && sculptor.honorific_hi ? sculptor.honorific_hi : sculptor.honorific;
+    const displayStudio = state.lang === 'hi' && sculptor.studio_name_hi ? sculptor.studio_name_hi : sculptor.studio_name;
+    const displayLoc = state.lang === 'hi' && sculptor.location_hi ? sculptor.location_hi : sculptor.location;
 
     // Fill Details
     dom.profileName.textContent = displayName;
@@ -1011,8 +1637,7 @@
     if (artisanImg) artisanImg.src = sculptor.portrait_image;
 
     // Fill Bio Paragraphs
-    const bios = (state.lang === 'te' && sculptor.bio_paragraphs_te) ? sculptor.bio_paragraphs_te 
-               : ((state.lang === 'hi' && sculptor.bio_paragraphs_hi) ? sculptor.bio_paragraphs_hi : sculptor.bio_paragraphs);
+    const bios = (state.lang === 'hi' && sculptor.bio_paragraphs_hi) ? sculptor.bio_paragraphs_hi : sculptor.bio_paragraphs;
     dom.profileBio.innerHTML = bios.map(p => `<p>${p}</p>`).join('');
 
     // Fill Personalities Box
@@ -1069,7 +1694,7 @@
       node.className = `timeline-node ${isActive ? 'active' : ''}`;
       node.onclick = () => selectYear(yr);
 
-      const label = yr === 'all' ? (state.lang === 'te' ? 'అన్నీ' : (state.lang === 'hi' ? 'सभी' : 'All')) : yr;
+      const label = yr === 'all' ? (state.lang === 'hi' ? 'सभी' : 'All') : yr;
       const countLabel = yr === 'all' ? `${works.length}` : `${counts[yr] || 0}`;
 
       node.innerHTML = `
@@ -1181,7 +1806,7 @@
     dom.modalImg.src = item.image_url;
 
     if (state.activeModalItem.type === 'work') {
-      dom.modalPlateHeading.textContent = `ARCHIVE RECORD / PLATE #${String(item.plate).padStart(2, '0')} • YEAR ${item.year}`;
+      dom.modalPlateHeading.textContent = `PROJECT RECORD / PLATE #${String(item.plate).padStart(2, '0')} • YEAR ${item.year}`;
       dom.modalWorkTitle.textContent = item.title;
       dom.modalDimensions.textContent = item.dimensions;
       dom.modalLocation.textContent = item.location;
@@ -1195,7 +1820,7 @@
       dom.modalWorkTitle.textContent = item.title;
       dom.modalDimensions.textContent = 'Studio Workspace Scene';
       dom.modalLocation.textContent = 'Begum Bazaar, Hyderabad';
-      dom.modalCommission.textContent = 'Workshop Archive';
+      dom.modalCommission.textContent = 'Workshop Collection';
       dom.modalEconomics.textContent = 'Historical Record';
       dom.modalPersonalities.textContent = 'Ramesh Singh Kalakar & Studio Artisans';
       dom.modalConcept.textContent = item.caption;
@@ -1373,6 +1998,189 @@
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
+
+  // ==========================================================================
+  // STUDIO FIELDWORK MAP & GEOLOCATION INTERFACE
+  // ==========================================================================
+  let studioMap = null;
+  let studioMarkers = [];
+  let activeStudioId = null;
+  let currentLightboxStudio = null;
+  let currentLightboxIndex = 0;
+
+  function initStudioMap() {
+    const mapSection = document.getElementById('map');
+    if (!mapSection || mapSection.style.display === 'none') return;
+    const mapContainer = document.getElementById('studio-osm-map');
+    if (!mapContainer) return;
+    if (typeof L === 'undefined') {
+      console.warn('Leaflet library not loaded.');
+      return;
+    }
+    if (studioMap) {
+      studioMap.invalidateSize();
+      return;
+    }
+
+    // Centered around the Hyderabad idol artisanal hub (Dhoolpet / Mangalhat)
+    studioMap = L.map('studio-osm-map', {
+      center: [17.3745, 78.4590],
+      zoom: 15,
+      minZoom: 12,
+      maxZoom: 18,
+      scrollWheelZoom: true
+    });
+
+    // OpenStreetMap standard tile layer (styled via CSS warm theme filter)
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a> contributors'
+    }).addTo(studioMap);
+
+    // Plot all 26 geolocated studios with visible coordinate labels on the map
+    STUDIO_LOCATIONS.forEach((studio) => {
+      const icon = L.divIcon({
+        className: 'coord-pin-custom-icon',
+        html: `
+          <div class="coord-pin-wrapper" id="coord-pin-${studio.id}" data-studio-id="${studio.id}">
+            <div class="coord-pin-dot"></div>
+            <div class="coord-pin-label">${studio.lat.toFixed(4)}° N, ${studio.lon.toFixed(4)}° E</div>
+          </div>
+        `,
+        iconSize: null
+      });
+
+      const marker = L.marker([studio.lat, studio.lon], { icon: icon }).addTo(studioMap);
+
+      // Hover on dot: opens images & updates details
+      marker.on('mouseover', () => {
+        selectStudioLocation(studio.id);
+      });
+
+      // Click on dot (especially convenient for mobile/touch or focused browsing)
+      marker.on('click', () => {
+        selectStudioLocation(studio.id);
+      });
+
+      studioMarkers.push({ id: studio.id, marker: marker });
+    });
+
+    // Default selection: Studio #01
+    if (STUDIO_LOCATIONS.length > 0) {
+      selectStudioLocation(STUDIO_LOCATIONS[0].id);
+    }
+  }
+
+  function selectStudioLocation(id) {
+    const studio = STUDIO_LOCATIONS.find(s => s.id === id);
+    if (!studio) return;
+
+    activeStudioId = id;
+
+    // Highlight active pin marker
+    document.querySelectorAll('.coord-pin-wrapper').forEach(el => {
+      if (parseInt(el.dataset.studioId, 10) === id) {
+        el.classList.add('active');
+      } else {
+        el.classList.remove('active');
+      }
+    });
+
+    // Update Details in Right Panel
+    const panelBadge = document.getElementById('panel-studio-badge');
+    const panelTitle = document.getElementById('panel-studio-title');
+    const panelCoord = document.getElementById('panel-coord');
+    const panelDate = document.getElementById('panel-date');
+    const panelLocation = document.getElementById('panel-location');
+    const panelPhotoCount = document.getElementById('panel-photo-count');
+
+    if (panelBadge) panelBadge.textContent = studio.studio_name;
+    if (panelTitle) panelTitle.textContent = studio.studio_name;
+    if (panelCoord) panelCoord.textContent = studio.coord_label;
+    if (panelDate) panelDate.textContent = studio.date || '—';
+    if (panelLocation) panelLocation.textContent = studio.location_display;
+    if (panelPhotoCount) panelPhotoCount.textContent = `${studio.images.length} Photos`;
+
+    // Render image gallery for this coordinate
+    const gallery = document.getElementById('studio-image-gallery');
+    if (gallery) {
+      gallery.innerHTML = '';
+      studio.images.forEach((imgFilename, index) => {
+        const card = document.createElement('div');
+        card.className = 'studio-thumb-card';
+        card.title = `${studio.studio_name} — Image ${index + 1} of ${studio.images.length}`;
+
+        const img = document.createElement('img');
+        img.loading = 'lazy';
+        img.src = `Studio Location Images/${encodeURIComponent(imgFilename)}`;
+        img.alt = `${studio.studio_name} image ${index + 1}`;
+
+        const badge = document.createElement('span');
+        badge.className = 'thumb-badge';
+        badge.textContent = `#${index + 1}`;
+
+        card.appendChild(img);
+        card.appendChild(badge);
+
+        card.onclick = () => {
+          openStudioLightbox(studio, index);
+        };
+
+        gallery.appendChild(card);
+      });
+    }
+  }
+
+  // --- Studio Image Lightbox Modal ---
+  function openStudioLightbox(studio, index) {
+    currentLightboxStudio = studio;
+    currentLightboxIndex = index;
+    updateStudioLightbox();
+    const modal = document.getElementById('studio-lightbox-modal');
+    if (modal) modal.classList.add('active');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function updateStudioLightbox() {
+    if (!currentLightboxStudio) return;
+    const studio = currentLightboxStudio;
+    const imgFilename = studio.images[currentLightboxIndex];
+
+    const lightboxImg = document.getElementById('lightbox-img');
+    const lightboxBadge = document.getElementById('lightbox-studio-badge');
+    const lightboxTitle = document.getElementById('lightbox-studio-title');
+    const lightboxIndexEl = document.getElementById('lightbox-img-index');
+    const lightboxCoord = document.getElementById('lightbox-coord');
+    const lightboxDate = document.getElementById('lightbox-date');
+    const lightboxLocation = document.getElementById('lightbox-location');
+    const lightboxFilename = document.getElementById('lightbox-filename');
+
+    if (lightboxImg) {
+      lightboxImg.src = `Studio Location Images/${encodeURIComponent(imgFilename)}`;
+      lightboxImg.alt = `${studio.studio_name} photo ${currentLightboxIndex + 1}`;
+    }
+    if (lightboxBadge) lightboxBadge.textContent = studio.studio_name;
+    if (lightboxTitle) lightboxTitle.textContent = studio.studio_name;
+    if (lightboxIndexEl) lightboxIndexEl.textContent = `Photo ${currentLightboxIndex + 1} of ${studio.images.length}`;
+    if (lightboxCoord) lightboxCoord.textContent = studio.coord_label;
+    if (lightboxDate) lightboxDate.textContent = studio.date || '—';
+    if (lightboxLocation) lightboxLocation.textContent = studio.location_display;
+    if (lightboxFilename) lightboxFilename.textContent = imgFilename;
+  }
+
+  function stepStudioLightbox(direction) {
+    if (!currentLightboxStudio) return;
+    const count = currentLightboxStudio.images.length;
+    currentLightboxIndex = (currentLightboxIndex + direction + count) % count;
+    updateStudioLightbox();
+  }
+
+  function closeStudioLightbox() {
+    const modal = document.getElementById('studio-lightbox-modal');
+    if (modal) modal.classList.remove('active');
+    document.body.style.overflow = '';
+  }
+
   // --- Navigation & View Switching ---
   function navigateToSculptor(sculptorId) {
     state.activeSculptorId = sculptorId;
@@ -1423,6 +2231,9 @@
       setTimeout(() => {
         const sec = document.getElementById(targetSectionId);
         if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+        if (targetSectionId === 'map' && studioMap) {
+          studioMap.invalidateSize();
+        }
       }, 50);
     } else {
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1546,19 +2357,40 @@
       };
     }
 
+    // Studio Lightbox Modal Events
+    if (dom.lightboxCloseBtn) {
+      dom.lightboxCloseBtn.onclick = closeStudioLightbox;
+    }
+    if (dom.studioLightboxModal) {
+      dom.studioLightboxModal.onclick = (e) => {
+        if (e.target === dom.studioLightboxModal) closeStudioLightbox();
+      };
+    }
+    if (dom.lightboxPrevBtn) {
+      dom.lightboxPrevBtn.onclick = () => stepStudioLightbox(-1);
+    }
+    if (dom.lightboxNextBtn) {
+      dom.lightboxNextBtn.onclick = () => stepStudioLightbox(1);
+    }
+
     if (dom.modalPrevBtn) dom.modalPrevBtn.onclick = () => stepModal(-1);
     if (dom.modalNextBtn) dom.modalNextBtn.onclick = () => stepModal(1);
 
     // Global keyboard listeners
     window.addEventListener('keydown', (e) => {
       if (e.key === 'Escape') {
-        if (dom.modalOverlay && dom.modalOverlay.classList.contains('active')) {
+        if (dom.studioLightboxModal && dom.studioLightboxModal.classList.contains('active')) {
+          closeStudioLightbox();
+        } else if (dom.modalOverlay && dom.modalOverlay.classList.contains('active')) {
           closeModal();
         } else if (dom.locationPlatesModal && dom.locationPlatesModal.classList.contains('active')) {
           closeLocationPlatesModal();
         } else if (dom.mapNodePopover && dom.mapNodePopover.style.display !== 'none') {
           closeMapNodePopover();
         }
+      } else if (dom.studioLightboxModal && dom.studioLightboxModal.classList.contains('active')) {
+        if (e.key === 'ArrowLeft') stepStudioLightbox(-1);
+        if (e.key === 'ArrowRight') stepStudioLightbox(1);
       } else if (dom.modalOverlay && dom.modalOverlay.classList.contains('active')) {
         if (e.key === 'ArrowLeft') stepModal(-1);
         if (e.key === 'ArrowRight') stepModal(1);
@@ -1589,6 +2421,7 @@
     cacheDOM();
     setupEvents();
     applyLanguage(state.lang);
+    initStudioMap();
     handleHashChange();
   }
 

@@ -1,15 +1,15 @@
-# Kalakar Collective (కళాకార్ కలెక్టివ్ / कलाकार कलेक्टिव)
-### An Artisans' Archive — Oral History, Studio Monographs & Photographic Heritage of Vernacular Sculptors
+# Kalakar Ka Nagar (कलाकार का नगर)
+### An Artisans' Project — Oral History, Studio Monographs & Photographic Heritage of Vernacular Sculptors
 
-**Live Web Archive**: [https://polymath05.github.io/kalakarcollective/](https://polymath05.github.io/kalakarcollective/)
+**Live Web Project**: [https://polymath05.github.io/kalakarkanagar.github.io/](https://polymath05.github.io/kalakarkanagar.github.io/)
 
 ---
 
-## 🏛️ About the Archive
+## 🏛️ About the Project
 
 Traditional idol sculpture in India is an ephemeral sacred art—created for festivals (*Ganesh Chaturthi*, *Durga Puja*, *Navratri*) and immersed into water bodies during *Visarjan* / *Nimajjanam*. While the physical clay and straw dissolve, the generational knowledge, workshop lineages, inter-state migrations, and studio albums of local artisans often remain undocumented.
 
-**Kalakar Collective** is an open-access digital humanities repository dedicated to preserving the studio photographs, oral histories, and material records of traditional vernacular sculptors.
+**Kalakar Project** is an ongoing project preserving the oral histories, studio photographs, and material records of Indian artisans.
 
 ---
 
@@ -26,15 +26,12 @@ Traditional idol sculpture in India is an ephemeral sacred art—created for fes
    - Monographic view dedicated to individual master sculptors.
    - Interactive chronology slider filtering works by year (1980–2000).
    - High-resolution archival image lightbox with zoom, pan, and full curatorial metadata.
-2. **Interactive Geographic Distribution Map**:
-   - Regional provenance cartography connecting Hyderabad, Telangana, and Andhra Pradesh installation hubs.
-   - Clickable location pins with instant archival photo thumbnail popovers and plate viewing.
-3. **Peoples Page**:
-   - Honoring the makers, keepers, and researchers behind the archive.
+2. **Peoples Page**:
+   - Honoring the makers, keepers, and researchers behind the project.
    - Profile of Founder & Art Historian **Sharad Chaurasia** (MVA, University of Hyderabad; BVA, University of Lucknow).
    - Public contribution guidelines and ethical consent protocols.
-4. **Trilingual Language Engine**:
-   - Seamless one-click switching between **English (EN)**, **Telugu (TE)**, and **Hindi (HI)**.
+3. **Bilingual Language Engine**:
+   - Seamless switching between **English (EN)** and **Hindi (HI)**.
 5. **Minimalist Archival Aesthetics**:
    - Editorial, archival color palette (natural parchment, deep charcoal ink, terracotta accent, and warm slate).
 
@@ -44,12 +41,12 @@ Traditional idol sculpture in India is an ephemeral sacred art—created for fes
 
 ```bash
 # Clone the repository
-git clone git@github.com:Polymath05/kalakarcollective.git
-cd kalakarcollective
+git clone git@github.com:Polymath05/kalakarkanagar.github.io.git
+cd kalakarkanagar.github.io
 
 # Run with any local server
-python3 -m http.server 8080
-# Visit http://localhost:8080
+python3 -m http.server 8000
+# Visit http://localhost:8000
 ```
 
 ---
